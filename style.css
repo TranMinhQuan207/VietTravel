@@ -130,67 +130,6 @@ form button:hover {
   border: 1px solid var(--main-color);
   color: var(--main-color);
 }
-/*bat dau cai thien responsive*/
-.no-scroll {
-  overflow: hidden;
-}
-@media (max-width: 480px) {
-  .header-content {
-    width: 100%;
-    padding: 100px 20px 0 20px;
-    text-align: center;
-  }
-
-  form {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .header-top i {
-    font-size: 28px;
-    margin: 10px;
-  }
-
-  .header-top ul {
-    width: 70%;
-    padding: 120px 0 0 20px;
-  }
-
-  .header-top ul li a {
-    font-size: 18px;
-  }
-
-  .video-container {
-    height: 100vh;
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .header-content {
-    width: 80%;
-    padding: 120px 30px 0 30px;
-  }
-
-  form {
-    width: 100%;
-  }
-
-  .header-top ul {
-    width: 250px;
-  }
-}
-.header-top ul {
-  position: fixed;
-  right: -320px; 
-  transition: right 0.3s ease, opacity 0.3s ease;
-}
-
-.header-top ul.active {
-  right: 0;
-  opacity: 1;
-}
-/* ket thuc cai thien responsive*/
-
 /* -------- NICE-PLACE -------- */
 .nice-place {
   padding: 100px 0;
