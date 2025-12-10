@@ -433,3 +433,19 @@ transform: translateX(0%);
   margin-top: 10px;
   font-family: var(--subtext);
 }
+.card{background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:0 6px 18px rgba(15,23,42,0.06);color:var(--main-color)}
+.avatar { width: 375px; height: 230px; border-radius: 14px; object-fit: cover; }
+.container{max-width:980px;margin:32px auto;padding:20px}
+.content { margin-left: 375px; margin-right: 220px; padding: 32px; width: 75%;min-height:inherit; color:#5acdc9 }
+section { padding: 14px; /* From https://css.glass */
+background: rgba(15, 23, 42, 0.03137254901960784);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(15, 23, 42, 0.3); gap: 18px; align-items: right;margin: 5px 0;}
+.price {
+            font-weight: bold;
+            color: #d63031;
+            margin-bottom: 12px;
+        }
