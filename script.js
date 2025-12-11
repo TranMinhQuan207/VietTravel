@@ -13,3 +13,13 @@ document.addEventListener("click", (e) => {
     document.body.classList.remove("no-scroll");
   }
 });
+// Hiển popup khi bấm nút tìm Kiếm
+document.querySelector("form button").addEventListener("click", function (event) {
+    event.preventDefault(); // không reload trang
+    document.getElementById("popup").style.display = "flex";
+});
+
+// tắt popup
+document.getElementById("closePopup").addEventListener("click", function () {
+    document.getElementById("popup").style.display = "none";
+});
